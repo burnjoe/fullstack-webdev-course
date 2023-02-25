@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+}
+
+/* styling element referenced by class */
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+/* styling element referenced by id */
+#circle {
+    color: green;
+    font-size: 40px;
+}
