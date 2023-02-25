@@ -1,0 +1,29 @@
+
+/* grouping */
+h1, h2, h3 {
+    color: green;
+    text-shadow: 1px 1px black;
+}
+
+/* specificity */
+h1 {
+    color: black;
+}
+
+/* high specificity value: div + h2 = 2 */
+/* while h2 alone = 1 */
+div h2 {
+    color: red;
+}
+
+/* ul = parent/ascendant */
+/* li = child/descendant */
+/* ul li = every element inside ul / any level deep */
+ul li {
+    color: blue;
+}
+
+/* ul > li = every element in one level deep */
+ul > li {
+    color: red;
+}
