@@ -1,6 +1,6 @@
-## Fullstack Web Development Course
+# Fullstack Web Development Course
 
-# Curriculum:
+## Curriculum:
 * HTML5
 * CSS3
 * Javascript
@@ -20,5 +20,5 @@ Work with NoSQL databases like MongoDB
 Build full-stack web apps with Facebook's React Framework
 Build mobile-friendly websites with Bootstrap 4 & CSS
 
-# YouTube Course Link:
+## YouTube Course Link:
 https://www.youtube.com/playlist?list=PLwoh6bBAszPrES-EOajos_E9gvRbL27wz
