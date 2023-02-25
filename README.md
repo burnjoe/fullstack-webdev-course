@@ -1,8 +1,8 @@
 # Fullstack Web Development Course
 
 ## Curriculum:
-* HTML5
-* CSS3
+* HTML5 (section_1)
+* CSS3 (section_2)
 * Javascript
 * Bootstrap 4
 * DOM Manipulation
