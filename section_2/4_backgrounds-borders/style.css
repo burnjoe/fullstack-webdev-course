@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-image: url(resources/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background: linear-gradient(to left, #00001a, #9900cc);
+    box-shadow: 3px 5px 3px black;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 10px black;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: 1px 1px 3px black;
+}
+
+.borderImg {
+    /* dashed-dotted-solid-outset-ridge-inset-groove */
+    border: 10px solid green;
+    border-radius: 50px;
+}
