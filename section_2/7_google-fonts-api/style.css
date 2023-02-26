@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+.container {
+    background: linear-gradient(to right, #999999, white);
+    box-shadow: 3px 3px 50px black;
+    border-radius: 100px;
+}
+
+/* DRY = Don't Repeat Yourself */
+h1, h2 {
+    color: black;
+    /* second font is called a fallback font */
+    /* means that if first font did not work, use fallback font */
+    font-family: "Climate Crisis", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+}
