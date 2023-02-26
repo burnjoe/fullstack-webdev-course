@@ -1,0 +1,34 @@
+body {
+    background-color: gray;
+    text-align: center;
+}
+
+.container {
+    background: linear-gradient(to right, #999999, white);
+    box-shadow: 3px 3px 50px black;
+    border-radius: 100px;
+}
+
+h1, h2 {
+    color: black;
+    font-family: "Climate Crisis", sans-serif;
+}
+
+img {
+    /* cause image to adjust its width when resizing viewport */
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    opacity: 0.8;
+    /* centers the image in its margin */
+    display: block;
+    margin: auto;
+}
+
+.borderimg {
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
