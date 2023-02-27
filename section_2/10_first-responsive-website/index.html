@@ -11,7 +11,7 @@
     <body>
         <nav>
             <ul class="topnav" id="dropdownClick">
-                <li><a href="#home">Home</a></li>
+                <li id="samp"><a href="#home">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#about">About</a></li>
@@ -30,16 +30,18 @@
         <script>
             // creates new class
             function dropdownMenu() {
-                var dropdownId = document.getElementById("dropdownClick");
+                var element = document.getElementById("dropdownClick");
                 // check if it ul element is in a mobile state or not
-                if (dropdownId.className === "topnav") {
+                if (element.className === "topnav") {
                     // if mobile state/hamburger is showing; 
                     // change topnav to topnav.responsive (create new class)
                     // appending responsive in topnav
                     // make sure that the appended value is prefixed with a space 
-                    dropdownId.className += " responsive";
+                    element.className += " responsive";
                 } else {
-                    x.className = "topnav";
+                    // if dropdown is shown/if className="topnav.responsive"
+                    // then the styling in media query will toggle off
+                    element.className = "topnav";
                 }
             }
         </script>

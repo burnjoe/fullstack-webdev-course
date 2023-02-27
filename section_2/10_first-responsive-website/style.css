@@ -99,8 +99,9 @@ ul.topnav li.dropdownIcon {
         float: none;
     }
 
+    /* display the hidden li */
     ul.topnav.responsive li a {
-        /* display the hidden li */
+        /* make li visible and aligned to left */
         display: block;
         text-align: left;
     }
