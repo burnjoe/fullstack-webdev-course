@@ -73,6 +73,37 @@ ul.topnav li.dropdownIcon {
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
+
+    /* display the hamburger icon and make it float to right */
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+
+    ul.topnav.responsive li.dropdownIcon {
+        /* tells element with class="dropdownIcon" to stay where it is */
+        position: absolute;
+        /* tells to stay in top-right corner */
+        top: 0;
+        right: 0;
+    }
+
+    /* call the appended class in topnav */
+    ul.topnav.responsive {
+        position: relative;
+    }
+
+    /* format li in mobile state */
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+
+    ul.topnav.responsive li a {
+        /* display the hidden li */
+        display: block;
+        text-align: left;
+    }
 }
 
 

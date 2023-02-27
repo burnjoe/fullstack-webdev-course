@@ -10,7 +10,7 @@
 
     <body>
         <nav>
-            <ul class="topnav">
+            <ul class="topnav" id="dropdownClick">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -18,9 +18,31 @@
                 <li class="topnav-right"><a href="#signup">Sign Up</a></li>
                 <li class="topnav-right"><a href="#signin">Sign In</a></li>
                 <!-- got unicode trigram from: https://symbl.cc/en/2630/ -->
-                <li class="dropdownIcon"><a href="">&#9776;</a></li>
+                <!-- add defined function in onclick="" -->
+                <!-- javascript:void(0); means that stay the page you're on -->
+                <li class="dropdownIcon"><a href="javascript:void(0);" 
+                    onclick="dropdownMenu()">&#9776;</a></li>
             </ul>
         </nav>       
+
+        <!-- best practice is to create a separate file for your script -->
+        <!-- but for the sake of this css practice, we add embedded javascript -->
+        <script>
+            // creates new class
+            function dropdownMenu() {
+                var dropdownId = document.getElementById("dropdownClick");
+                // check if it ul element is in a mobile state or not
+                if (dropdownId.className === "topnav") {
+                    // if mobile state/hamburger is showing; 
+                    // change topnav to topnav.responsive (create new class)
+                    // appending responsive in topnav
+                    // make sure that the appended value is prefixed with a space 
+                    dropdownId.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
 
     </body>
 </html>
