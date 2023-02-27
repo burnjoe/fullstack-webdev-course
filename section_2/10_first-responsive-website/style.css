@@ -1,0 +1,60 @@
+/* ############# Defaults ############## */
+
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+/* ################# Nav Bar ################## */
+
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    background-color: #eee;
+    /* when element is too big to fit in the screen don't show it */
+    /* clip the content */
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    /* removes bullet points of li */
+    list-style: none;
+    /* make elements float in left */
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    /* make elements float in right */
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    /* remove underline */
+    text-decoration: none;
+    /* minimum height of text */
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    /* set text to uppercase */
+    text-transform: uppercase;
+    color: #666;
+}
+
+/* perform when mouse hover */
+ul.topnav li a:hover {
+    background-color: #0080ff;
+    color: #eee;
+}
+
