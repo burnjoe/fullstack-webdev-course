@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap" rel="stylesheet">
         <title>BNJE</title>
     </head>
 
@@ -25,6 +28,38 @@
             </ul>
         </nav>       
 
+        <div class="container" id="section-1-gradient">
+            <div class="row">
+                <!-- class in a class -->
+               <div class="col-6 leftSide-col">
+                    <div>
+                        <h1 class="large">Crazy Radness</h1>
+                        <h1 class="large">Made for Developers</h1>
+                    </div>
+                    <div>
+                        <form>
+                            <div>
+                                <h2>Username</h2>
+                                <input class="inputbox" name="username" type="text" placeholder="Username">
+                                <h2>Password</h2>
+                                <input class="inputbox" name="password" type="text" placeholder="Password">
+                            </div>
+                        </form>
+                    </div>
+               </div>
+               <div class="col-6">
+
+               </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
         <!-- best practice is to create a separate file for your script -->
         <!-- but for the sake of this css practice, we add embedded javascript -->
         <script>
@@ -33,13 +68,13 @@
                 var element = document.getElementById("dropdownClick");
                 // check if it ul element is in a mobile state or not
                 if (element.className === "topnav") {
-                    // if mobile state/hamburger is showing; 
+                    // if mobile state/hamburger is visible; 
                     // change topnav to topnav.responsive (create new class)
-                    // appending responsive in topnav
+                    // appending responsive to topnav
                     // make sure that the appended value is prefixed with a space 
                     element.className += " responsive";
                 } else {
-                    // if dropdown is shown/if className="topnav.responsive"
+                    // if dropdown is visible/if className="topnav.responsive"
                     // then the styling in media query will toggle off
                     element.className = "topnav";
                 }
@@ -48,3 +83,11 @@
 
     </body>
 </html>
+
+
+
+
+
+<!-- Links -->
+<!-- CSS Gradients: https://www.w3schools.com/css/css3_gradients.asp -->
+<!-- Google Fonts: https://fonts.google.com/ -->
