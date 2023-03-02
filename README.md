@@ -22,3 +22,6 @@ Build mobile-friendly websites with Bootstrap 4 & CSS
 
 ## YouTube Course Link:
 https://www.youtube.com/playlist?list=PLwoh6bBAszPrES-EOajos_E9gvRbL27wz
+
+## First Responsive Website (section_2 proj)
+https://burnjoe.github.io/fullstack-webdev-course/section_2/10_first-responsive-website/
